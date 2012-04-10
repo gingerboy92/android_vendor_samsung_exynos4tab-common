@@ -17,7 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
     vendor/samsung/c210-common/proprietary/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
-    vendor/samsung/c210-common/proprietary/libtvout.so:obj/lib/libtvout.so \
+    vendor/samsung/c210-common/proprietary/libTVOut.so:obj/lib/libTVOut.so \
     vendor/samsung/c210-common/proprietary/libfimc.so:obj/lib/libfimc.so
 
 # AUDIO
@@ -81,17 +81,16 @@ PRODUCT_COPY_FILES += \
 # HWCOMPOSER
 PRODUCT_COPY_FILES += \
     vendor/samsung/c210-common/proprietary/hwcomposer.exynos4.so:system/lib/hw/hwcomposer.exynos4.so \
-    vendor/samsung/c210-common/proprietary/tvoutserver:system/bin/tvoutserver \
-    vendor/samsung/c210-common/proprietary/lib_tvoutengine.so:system/lib/lib_tvoutengine.so \
+    vendor/samsung/c210-common/proprietary/bintvoutservice:system/bin/bintvoutservice \
+    vendor/samsung/c210-common/proprietary/libcec.so:system/lib/libcec.so \
+    vendor/samsung/c210-common/proprietary/libddc.so:system/lib/libddc.so \
+    vendor/samsung/c210-common/proprietary/libedid.so:system/lib/libedid.so \
     vendor/samsung/c210-common/proprietary/libfimc.so:system/lib/libfimc.so \
-    vendor/samsung/c210-common/proprietary/libtvout.so:system/lib/libtvout.so \
+    vendor/samsung/c210-common/proprietary/libhdmi.so:system/lib/libhdmi.so \
+    vendor/samsung/c210-common/proprietary/libhdmiclient.so:system/lib/libhdmiclient.so \
+    vendor/samsung/c210-common/proprietary/libTVOut.so:system/lib/libTVOut.so \
     vendor/samsung/c210-common/proprietary/libtvout_jni.so:system/lib/libtvout_jni.so \
-    vendor/samsung/c210-common/proprietary/libtvoutcec.so:system/lib/libtvoutcec.so \
-    vendor/samsung/c210-common/proprietary/libtvoutddc.so:system/lib/libtvoutddc.so \
-    vendor/samsung/c210-common/proprietary/libtvoutedid.so:system/lib/libtvoutedid.so \
-    vendor/samsung/c210-common/proprietary/libtvoutfimc.so:system/lib/libtvoutfimc.so \
-    vendor/samsung/c210-common/proprietary/libtvoutfimg.so:system/lib/libtvoutfimg.so \
-    vendor/samsung/c210-common/proprietary/libtvouthdmi.so:system/lib/libtvouthdmi.so \
+    vendor/samsung/c210-common/proprietary/libtvoutinterface.so:system/lib/libtvoutinterface.so \
     vendor/samsung/c210-common/proprietary/libtvoutservice.so:system/lib/libtvoutservice.so
 
 # SENSORS
