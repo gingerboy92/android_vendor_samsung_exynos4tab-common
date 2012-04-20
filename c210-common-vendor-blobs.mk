@@ -98,8 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/c210-common/proprietary/libakm.so:system/lib/libakm.so \
     vendor/samsung/c210-common/proprietary/libmllite.so:system/lib/libmllite.so \
     vendor/samsung/c210-common/proprietary/libmlplatform.so:system/lib/libmlplatform.so \
-    vendor/samsung/c210-common/proprietary/libmpl.so:system/lib/libmpl.so \
-    vendor/samsung/c210-common/proprietary/sensors.exynos4.so:system/lib/hw/sensors.exynos4.so
+    vendor/samsung/c210-common/proprietary/libmpl.so:system/lib/libmpl.so
 
 # GPS
 PRODUCT_COPY_FILES += \
