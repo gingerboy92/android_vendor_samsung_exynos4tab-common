@@ -103,6 +103,9 @@ PRODUCT_COPY_FILES += \
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/c210-common/proprietary/gps.exynos4.so:system/lib/hw/gps.exynos4.so
+    vendor/samsung/c210-common/proprietary/gpsd:system/bin/gpsd
+    vendor/samsung/c210-common/proprietary/gps.cer:system/bin/gps.cer
+    vendor/samsung/c210-common/proprietary/gps.xml:system/etc/gps.xml
 
 # LPM
 PRODUCT_COPY_FILES += \
