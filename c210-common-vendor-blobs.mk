@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-    vendor/samsung/c210-common/proprietary/audio/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
+    vendor/samsung/c210-common/proprietary/audio/lib/libmediayamahaservice.so:obj/lib/libmediayamahaservice.so \
     vendor/samsung/c210-common/proprietary/hwcomposer/lib/libTVOut.so:obj/lib/libTVOut.so \
     vendor/samsung/c210-common/proprietary/hwcomposer/lib/libfimc.so:obj/lib/libfimc.so
 
