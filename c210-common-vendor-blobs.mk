@@ -131,4 +131,4 @@ PRODUCT_COPY_FILES += \
 
 # hwaccel firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/c210-common/proprietary/mfc_fw.bin:root/vendor/firmware/mfc_fw.bin
+    vendor/samsung/c210-common/proprietary/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin
